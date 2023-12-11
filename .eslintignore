@@ -1,0 +1,8 @@
+test
+public
+dist
+config/*
+/node_modules
+.husky/*
+.eslintrc.json
+.prettier.json
