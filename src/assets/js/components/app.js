@@ -7,7 +7,7 @@ const clientCounter = () => {
         const buttons = counter.querySelectorAll('[data-client-counter-btn]');
         const amountLabels = counter.querySelectorAll('[data-client-counter-amount]');
         const priceLabels = counter.querySelectorAll('[data-client-counter-price]');
-        const priceForOne = counter.dataset.clientCounter;
+        const priceForOne = counter.dataset.clientCounter ? counter.dataset.clientCounter : 10;
         const data = {
             amount: 1,
             price() {
