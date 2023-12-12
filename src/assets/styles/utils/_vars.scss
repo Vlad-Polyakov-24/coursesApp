@@ -4,9 +4,7 @@ $images: "../images/";
 
 /* fonts */
 
-$default-fonts: "Noto Sans JP", hiragino sans, "ヒラギノ角ゴシック", hiragino kaku gothic pron,
-  "ヒラギノ角ゴ ProN W3", roboto, "Droid Sans", yugothic, "游ゴシック", meiryo, "メイリオ", verdana,
-  "ＭＳ Ｐゴシック", sans-serif;
+$default-fonts: roboto, sans-serif;
 $breakpoints: (
   xs: 375px,
   sm: 576px,
@@ -19,7 +17,7 @@ $breakpoints: (
 /* container size/gap */
 
 $container-gap: 20px;
-$container-width: 1280px;
+$container-width: 1000px;
 
 /* colors */
 

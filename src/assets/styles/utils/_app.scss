@@ -24,7 +24,8 @@ body {
 /* app */
 
 .app {
-  display: block;
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
   width: 100%;
   max-width: 100%;

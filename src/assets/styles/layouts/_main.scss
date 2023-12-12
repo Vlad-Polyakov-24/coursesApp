@@ -1,0 +1,22 @@
+.intro {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #797979;
+
+  &__inner {
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: $white;
+    border-radius: 5px;
+
+    + .intro__inner {
+      margin-top: 20px;
+    }
+  }
+}

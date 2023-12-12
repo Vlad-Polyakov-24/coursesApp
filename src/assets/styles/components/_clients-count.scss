@@ -1,0 +1,91 @@
+.clients-count {
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    + .clients-count__nav {
+      margin-top: 20px;
+    }
+  }
+
+  &__icon {
+    width: 16px;
+    height: 19px;
+    cursor: pointer;
+    color: #5FAAC3;
+
+    @media (hover: hover) {
+      &:hover {
+        color: #A42BB9;
+      }
+    }
+
+    &.active {
+      color: #A42BB9;
+
+      svg {
+        fill: #D0ACD7;
+      }
+    }
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 37px;
+    height: 37px;
+    padding: 5px;
+    border: 1.2px solid #85CAE9;
+    border-radius: 9px;
+    color: #00789F;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: #85CAE9;
+      }
+    }
+
+    svg {
+      display: block;
+      width: 17px;
+      height: auto;
+    }
+  }
+
+  &__text {
+    display: block;
+    color: $black;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  &__input {
+    display: inline-block;
+    width: 25px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+  }
+}

@@ -1,0 +1,17 @@
+<svg>
+
+    <symbol id="human" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="8.75" cy="5.75" r="4.85" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M5 13.9H13C15.2644 13.9 17.1 15.7356 17.1 18V20.1H0.9V18C0.9 15.7356 2.73563 13.9 5 13.9Z" stroke="currentColor" stroke-width="1.8"/>
+    </symbol>
+
+    <symbol id="minus" width="17" height="4" viewBox="0 0 17 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.02344 1.78809H15.4984" stroke="currentColor" stroke-width="2.45" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="plus" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.94531 8.56152H15.4203" stroke="currentColor" stroke-width="2.45" stroke-linecap="round"/>
+        <path d="M8.67969 15.2988L8.67969 1.82383" stroke="currentColor" stroke-width="2.45" stroke-linecap="round"/>
+    </symbol>
+
+</svg>
